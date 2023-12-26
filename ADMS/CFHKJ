@@ -1,0 +1,11 @@
+drop TABLE csc_200011
+SELECT * from csc_200011
+select * from student
+SELECT * FROM student s WHERE s.Enrolledclass=2 AND StudentFaculty=1
+SELECT "" as RowId, s.RowId As StudentId, s.StudentName As StudentName FROM student s WHERE s.Enrolledclass=2 AND StudentFaculty=1
+insert into csc_200011 SELECT "" as RowId, s.RowId As StudentId, s.StudentName As StudentName FROM student s WHERE s.Enrolledclass=2 AND StudentFaculty=1
+SELECT * FROM csc_200011
+Expand Requery Edit Explain Profiling Bookmark Database Queried time
+SELECT * FROM `csc_200011`
+
+
